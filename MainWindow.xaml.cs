@@ -47,8 +47,10 @@ namespace Wpf_newdemo_ok
         }
         private void MouseRight_ButtonDown(object sender, MouseButtonEventArgs e)
         {
+            //choice 2
             MeasureModel(body);
             CompositionTarget.Rendering += new EventHandler(CompositionTarget_Rendering);
+            //choice 1
             //rflag = true;
             //Point pos = Mouse.GetPosition(viewport);
             //mLastPos = new Point(pos.X - viewport.ActualWidth / 2, viewport.ActualHeight / 2 - pos.Y);
