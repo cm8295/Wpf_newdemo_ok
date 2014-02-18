@@ -24,7 +24,7 @@ namespace Wpf_newdemo_ok
         private Point3D potion = new Point3D(0, 0, 0);
         private bool lflag = false;
         private bool rflag = false;
-        Transform3DGroup t3dg;
+        Transform3DGroup t3dg = new Transform3DGroup();
         TranslateTransform3D move;
 		public MainWindow()
 		{

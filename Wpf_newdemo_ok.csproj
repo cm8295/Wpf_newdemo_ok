@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ExpressionBlendVersion>4.0.20621.0</ExpressionBlendVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{dda6da89-1024-491b-8f39-086183c2b067}</ProjectGuid>
+    <ProjectGuid>{DDA6DA89-1024-491B-8F39-086183C2B067}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <DefaultClrNameSpace>Wpf_newdemo_ok</DefaultClrNameSpace>
@@ -77,9 +77,6 @@
     <None Include="Application.ico">
       <Visible>false</Visible>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="demo_ok.obj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
